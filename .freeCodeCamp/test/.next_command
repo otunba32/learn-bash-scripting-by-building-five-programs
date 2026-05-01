@@ -183,3 +183,5 @@ echo $J bingo.sh countdown.sh questionnaire.sh 5 + 25
 echo $(( J bingo.sh countdown.sh questionnaire.sh 5 + 25 ))
 echo $J
 declare -p
+delcare -p J
+declare -p J
