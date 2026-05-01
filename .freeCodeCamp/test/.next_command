@@ -153,3 +153,4 @@ help while
 touch bingo.sh
 chmod +x bingo.sh
 echo bingo.sh
+./bingo.sh
