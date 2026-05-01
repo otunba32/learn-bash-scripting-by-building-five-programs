@@ -205,3 +205,5 @@ echo $*
 echo $ARRA
 echo $ARR*
 echo ${ARR[@]}
+declare -p
+declare -p ARR
