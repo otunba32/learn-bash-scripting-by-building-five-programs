@@ -220,3 +220,9 @@ help function
 help
 help until
 ./fortune.sh
+RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+[[ $QUESTION == test? ]]
+help [[
