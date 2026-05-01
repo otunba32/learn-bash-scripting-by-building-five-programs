@@ -8,4 +8,5 @@ then
 do
   echo $i
 done
+sleep 1
 fi
