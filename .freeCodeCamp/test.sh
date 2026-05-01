@@ -1,19 +1,14 @@
 #!/bin/bash
-echo -e "\n~~ Questionnaire ~~\n"
 
-QUESTION1="What's your name?"
-QUESTION2="Where are you from?"
-QUESTION3="What's your favorite coding website?"
-
-echo $QUESTION1
-
-read NAME
-
-echo $QUESTION2
-read LOCATION
-echo $QUESTION3
-read WEBSITE
-
-echo Hello $NAME.
-echo Hello $NAME from $LOCATION.
-echo $WEBSITE
+#Program that counts down to zero from a given argument
+echo -e "\n~~ Countdown Timer ~~\n"
+if [[ $1 -gt 0 ]]
+then
+  : 'for (( i = $1; i >= 0; i-- ))
+do
+  echo $i 
+done
+sleep 1'
+I=$1
+fi
+echo $I

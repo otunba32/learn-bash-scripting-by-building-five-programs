@@ -9,4 +9,5 @@ do
   echo $i 
 done
 sleep 1'
+I=$1
 fi
