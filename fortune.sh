@@ -13,3 +13,4 @@ GET_FORTUNE
 N=$(( RANDOM % 6 ))
 
 echo ${RESPONSES[$N]}
+read QUESTION
