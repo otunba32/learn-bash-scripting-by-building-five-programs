@@ -215,3 +215,4 @@ echo ${RESPONSES[5]}
 help
 man function
 help function
+./fortune.sh
