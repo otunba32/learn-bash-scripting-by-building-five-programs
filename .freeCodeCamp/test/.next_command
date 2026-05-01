@@ -213,3 +213,5 @@ echo ${ARR[5]}
 echo ${RESPONSES[5]}
 ./fortune.sh
 help
+man function
+help function
