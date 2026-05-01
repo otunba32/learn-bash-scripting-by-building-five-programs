@@ -185,3 +185,4 @@ echo $J
 declare -p
 delcare -p J
 declare -p J
+declare -p RANDOM
