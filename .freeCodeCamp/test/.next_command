@@ -208,3 +208,6 @@ echo ${ARR[@]}
 declare -p
 declare -p ARR
 RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+echo ${ARR[6]}
+echo ${ARR[5]}
+echo ${RESPONSES[5]}
