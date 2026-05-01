@@ -127,3 +127,6 @@ bad_file.txt
 bad_file.txt
 __vsc_prompt_cmd_original
 [[ -a bad_file.txt ]]
+chmod +x countdown.sh
+ls --color=auto -a
+[[ -x countdown.sh ]]
