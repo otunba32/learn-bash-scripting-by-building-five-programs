@@ -227,3 +227,4 @@ __vsc_prompt_cmd_original
 [[ $QUESTION == test? ]]
 help [[
 [[ hello == hello ]]
+[[ hello == world ]]
