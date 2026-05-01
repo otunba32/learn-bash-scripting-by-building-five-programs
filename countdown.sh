@@ -4,9 +4,9 @@
 echo -e "\n~~ Countdown Timer ~~\n"
 if [[ $1 -gt 0 ]]
 then
-  for (( i = $1; i >= 0; i-- ))
+  : 'for (( i = $1; i >= 0; i-- ))
 do
-  echo $i
+  echo $i 
 done
-sleep 1
+sleep 1'
 fi
