@@ -121,3 +121,9 @@ ls --color=auto -y
 test help
 help test
 [[ -a countdown.sh ]]
+bad_file.txt
+help bad_file.txt
+bad_file.txt
+bad_file.txt
+__vsc_prompt_cmd_original
+[[ -a bad_file.txt ]]
