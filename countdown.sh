@@ -10,4 +10,7 @@ do
 done
 sleep 1'
 I=$1
-fi
+while [[ $I -ge 0 ]]
+do
+  echo $I
+done 
