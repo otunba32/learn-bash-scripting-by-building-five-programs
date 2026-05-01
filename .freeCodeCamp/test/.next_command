@@ -176,3 +176,6 @@ $(( I + 4 ))
 echo $(( I + 4 ))
 echo $I
 J=$(( I - 6 ))
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+echo $J
