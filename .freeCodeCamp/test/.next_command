@@ -158,3 +158,5 @@ printenv
 echo lang
 echo LANG
 echo $LANG
+__vsc_prompt_cmd_original
+declare -p
