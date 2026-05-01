@@ -131,3 +131,4 @@ chmod +x countdown.sh
 ls --color=auto -a
 [[ -x countdown.sh ]]
 help [[
+[[ -x countdown.sh && 5 -le 4 ]]
