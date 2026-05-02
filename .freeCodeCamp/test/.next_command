@@ -242,3 +242,4 @@ echo $VAR
 [[ $VAR =~ \?$ ]]
 [[ test? =~ \?$ ]]
 ./fortune.sh mute
+./fortune.sh my
