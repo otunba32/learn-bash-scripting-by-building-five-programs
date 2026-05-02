@@ -20,6 +20,7 @@ function GET_FORTUNE() {
 
 QUESTION=""
 
+GET_FORTUNE
 until [[ $QUESTION =~ \?$ ]]
 do
   GET_FORTUNE again
